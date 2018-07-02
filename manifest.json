@@ -40,12 +40,12 @@
   },
   "commands": {
     "global_toggle_hotkey": {
-      "suggested_key": {},
+      "suggested_key": "Ctrl+Shift+D",
       "description": "Toggle enabled globally"
     },
     "tab_toggle_hotkey": {
-      "suggested_key": {},
-      "description": "Toggle enabled for current tab"
+      "suggested_key": "Ctrl+D",
+          "description": "Toggle enabled for current tab"
     }
   },
   "browser_action": {
@@ -58,18 +58,6 @@
       "64": "icons/icon64.png"
     },
     "default_title": "Dark Background and Light Text",
-    "default_popup": "ui/configure-for-current-tab-panel.html"
-  },
-  "page_action": {
-    "browser_style": false,
-    "default_icon": {
-      "16": "icons/icon16.png",
-      "24": "icons/icon24.png",
-      "32": "icons/icon32.png",
-      "48": "icons/icon48.png",
-      "64": "icons/icon64.png"
-    },
-    "default_title": "Dark Background and Light Text preferences for current tab",
     "default_popup": "ui/configure-for-current-tab-panel.html"
   },
   "options_ui": {
